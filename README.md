@@ -1,4 +1,4 @@
-# MNIST Digit Classifier
+# MNIST Digit Generator
 
 A simple web application built with Flask that uses a neural network trained on the MNIST dataset to recognize handwritten digits.
 
@@ -25,5 +25,7 @@ A simple web application built with Flask that uses a neural network trained on 
 ```bash
 pip install -r requirements.txt
 python app.py
+```
 
-## This project was developed as part of my machine learning studies.
+---
+This project was developed as part of my machine learning studies.
