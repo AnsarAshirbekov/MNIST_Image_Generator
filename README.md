@@ -1,6 +1,6 @@
 # MNIST Digit Generator
 
-A simple web application built with Flask that uses a neural network trained on the MNIST dataset to recognize handwritten digits.
+A simple web application built with Flask that uses a neural network trained on the MNIST dataset to generate handwritten digits.
 
 ## Screenshot
 
@@ -9,8 +9,8 @@ A simple web application built with Flask that uses a neural network trained on 
 ## Features
 
 - Flask backend
-- PyTorch neural network
-- MNIST handwritten digit recognition
+- PyTorch diffusion model
+- MNIST handwritten digit generation
 - Simple web interface
 
 ## Technologies
