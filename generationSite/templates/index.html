@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digit Diffusion Generator</title>
+</head>
+<body>
+    <h1>Generate Digit</h1>
+
+    <form action="/generate" method="POST">
+        <input
+            type="number"
+            name="digit"
+            min="0"
+            max="9"
+            required
+        >
+
+        <button type="submit">
+            Generate
+        </button>
+    </form>
+    
+    {% if generated_image %}
+        <h2>Generated image:</h2>
+
+        <img
+            src="{{ generated_image }}"
+            width="300"
+            height="300"
+            style="width:300px; image-rendering: pixelated;"
+        >
+
+        <br><br>
+
+        <a href="{{ generated_image }}" download>
+            Download image
+        </a>
+    {% endif %}
+</body>
+</html>
